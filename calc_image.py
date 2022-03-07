@@ -35,7 +35,7 @@ def binarize_lib(
             nrows=1,
             ncols=2,
         )
-        fig.suptitle("{} - {}%".format(filename, white_percent))
+        fig.suptitle("{} - {:.2f}%".format(filename, white_percent))
 
         ax1.axis("off")
         ax1.title.set_text("Original")
